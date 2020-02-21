@@ -1,6 +1,5 @@
 Hand-coded portfolio project for SI 539: Design of Complex Websites.
 
-Project Specifications:
 About this project….
 This portfolio can cover any topic you would like - a personal portfolio about yourself, a business page for someone else, a site for a student group, an homage to pot-belly pigs…  The content is up to you. 
 
