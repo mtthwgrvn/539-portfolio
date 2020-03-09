@@ -3,19 +3,17 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/darkness.css">
 <body class="w3-black">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="img/portrait.png" style="width:100%">
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -26,7 +24,7 @@
   </a>
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-eye w3-xxlarge"></i>
-    <p>DESIGN</p>
+    <p>PHOTOS</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
@@ -48,47 +46,40 @@
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">Hi! I'm</span> Matt.</h1>
-    <p>UX Research and Design Anthropologist.</p>
-    <img src="img/quick-facts.png" alt="man" class="w3-image" width="992" height="1108">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> John Doe.</h1>
+    <p>Photographer and Web Designer.</p>
+    <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">What I do</h2>
+    <h2 class="w3-text-light-grey">My Name</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>In my first year as an MSI at the <a href="https://www.si.umich.edu/" target=blank>University of Michigan School of Information</a>,
-      I’ve specialized in UX Research and Design, Human-Computer Interaction, and Social Computing.
-      I mastered coursework on Cognitive Psychology and Human Behavior, Interaction Design, Contextual Inquiry
-      and UX Consulting, and Python Programming. I’m focused on Needs Assessment and Usability Evaluation, Graphic Design,
-      and the Accessible Design of Complex Websites. I provided <a href="grdc_case-study.html" target=self>UX Consulting for the Grandmont Rosedale Development Corporation</a>,
-      and developed a <a href="fetch_case-study.html" target=self>mobile app concept</a> to support a need in my community.</p>
-      <p>I’m currently providing UX Consulting for <a href="http://www.developer.ibm.com" target=blank>IBM Developer</a>. And am a UX/UI Specialist and Human-in-the-Loop Usability Lab Testing Coordinator
-         for <a href="http://sedsatum.org" target=blank>SEDS@UM</a> (Students for the Exploration and Development of Space), on the <a href="http://sedsatum.org/index.php/claws/" target=blank>CLAWS</a>
-          (Compact Localized Augmented Workstation) and <a href="http://sedsatum.org/index.php/bliss/" target=blank>BLiSS</a>
-         (Bioastronautics and Life Support Systems) student research groups competing in the NASA SUITS and Moon to Mars Exploration Systems and Habitation
-         (M2M X-HAB) Challenges.</p>
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Research</p>
+    <p class="w3-wide">Photography</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
     <p class="w3-wide">Web Design</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-    </div>
-    <p class="w3-wide">Adobe CC</p>
-    <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div><br>
 
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">20+</span><br>
+        <span class="w3-xlarge">11+</span><br>
         Partners
       </div>
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">15+</span><br>
+        <span class="w3-xlarge">55+</span><br>
         Projects Done
       </div>
       <div class="w3-quarter w3-section">
@@ -106,38 +97,38 @@
     </button>
 
     <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Services</h3>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">User Research</li>
-          <li class="w3-padding-16">Needs Assessment</li>
-          <li class="w3-padding-16">Contextual Inquiry</li>
-          <li class="w3-padding-16">Heuristic Evaluation</li>
-          <li class="w3-padding-16">Usability Testing</li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
           <li class="w3-padding-16">
-            <h2>Design</h2>
-            <span class="w3-opacity">Ethnography</span>
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">See More</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
           </li>
         </ul>
       </div>
 
       <div class="w3-half">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">UX Design</li>
-          <li class="w3-padding-16">Personas</li>
-          <li class="w3-padding-16">Interaction Mapping</li>
-          <li class="w3-padding-16">Rapid Prototyping</li>
-          <li class="w3-padding-16">Wireframes</li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
           <li class="w3-padding-16">
-            <h2>Design</h2>
-            <span class="w3-opacity">Thinking</span>
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">See More</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
           </li>
         </ul>
       </div>
@@ -186,9 +177,9 @@
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Detroit, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +248 797 4279</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mtthwgrvn@gmail.com</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
     </div><br>
     <p>Lets get in touch. Send me a message:</p>
 
@@ -214,7 +205,7 @@
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Designed by <a href="https://www.mtthwx.com" target="_blank" class="w3-hover-text-green">me.</a></p>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
 
