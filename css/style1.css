@@ -71,18 +71,6 @@ img {
   vertical-align: middle
 }
 
-.wrapper {
-  height: 1100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px;
-}
-
-.parallax {
-  max-width: 100%;
-  height: auto
-}
-
 a {
   color: inherit
 }
