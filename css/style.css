@@ -1,4 +1,6 @@
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+bar-item button padding-large black
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -1210,7 +1212,7 @@ a.skip-main:focus, a.skip-main:active {
   float: right !important
 }
 
-.button:hover {
+.button:hover .button:focus {
   color: #000 !important;
   background-color: #ccc !important
 }
