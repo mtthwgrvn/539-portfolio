@@ -18,7 +18,7 @@
 </head>
 
 <!-- Skip to main content -->
-<a class="skip-main" href="#main">Skip to main content</a>
+<a class="skip-main" href="#about">Skip to main content</a>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="sidebar bar-block small hide-small center">
@@ -57,7 +57,7 @@
 </div>
 
 <!-- Page Content -->
-<div class="padding-large">
+<div class="padding-large" id="main">
   <!-- Header/Home -->
   <header class="container padding-32 center black" id="home">
     <h1 class="jumbo"><span class="hide-small">Hi! I'm</span> Matt.</h1>
@@ -66,7 +66,7 @@
   </header>
 
   <!-- About Section -->
-  <div class="content justify text-grey padding-64" id="main">
+  <div class="content justify text-grey padding-64" id="about">
     <h2 class="text-light-grey">What I do</h2>
     <hr style="width:200px" class="opacity">
     <p>In my first year as an MSI at the <a href="https://www.si.umich.edu/" target=blank>University of Michigan School of Information</a>,
@@ -115,7 +115,7 @@
             <span class="opacity">Ethnography</span>
           </li>
           <li class="light-grey padding-24">
-            <button class="button white padding-large hover-black">See More</button>
+            <button class="button white padding-large hover-black"><a href="research.html">See More</a></button>
           </li>
         </ul>
       </div>
@@ -132,7 +132,7 @@
             <span class="opacity">Thinking</span>
           </li>
           <li class="light-grey padding-24">
-            <button class="button white padding-large hover-black">See More</button>
+            <button class="button white padding-large hover-black"><a href="design.html">See More</a></button>
           </li>
         </ul>
       </div>
@@ -162,6 +162,13 @@
   <p class="medium">Designed by <a href="https://www.mtthwx.com" target="_blank" class="hover-text-green">me.</a></p>
 <!-- End footer -->
 </footer>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 
 <!-- END PAGE CONTENT -->
 </div>
