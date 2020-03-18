@@ -8,7 +8,7 @@
   <script src="https://kit.fontawesome.com/c1b7f2b78c.js" crossorigin="anonymous"></script>
 
   <!-- Style Sheets -->
-  <link rel="shortcut icon" href="images/logo.png"/>
+  <link rel="shortcut icon" href="images/logo.png" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/normalize.css">
@@ -18,29 +18,29 @@
 </head>
 
 <!-- Skip to main content -->
-<a class="skip-main" href="#photos">Skip to main content</a>
+<a class="skip-main" href="#main">Skip to main content</a>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="sidebar bar-block small hide-small center">
     <!-- Avatar image in top left corner -->
   <img src="img/logo.png" alt="logo" style="width:100%">
-  <a href="index.html" class="bar-item button padding-large hover-black" aria-label="Home">
+  <a href="index.html" class="bar-item button padding-large hover-black">
     <i class="fas fa-home xxlarge"></i>
     <p>HOME</p>
   </a>
-  <a href="about.html" class="bar-item button padding-large hover-black" aria-label="About">
+  <a href="about.html" class="bar-item button padding-large hover-black">
     <i class="fas fa-user xxlarge"></i>
     <p>ABOUT</p>
   </a>
-  <a href="research.html" class="bar-item button padding-large hover-black" aria-label="Research">
+  <a href="research.html" class="bar-item button padding-large hover-black">
     <i class="fas fa-flask xxlarge"></i>
     <p>RESEARCH</p>
   </a>
-  <a href="design.html" class="bar-item button padding-large black" aria-label="Design">
+  <a href="design.html" class="bar-item button padding-large black">
     <i class="fas fa-pencil-ruler xxlarge"></i>
     <p>DESIGN</p>
   </a>
-  <a href="contact.html" class="bar-item button padding-large hover-black" aria-label="Contact">
+  <a href="contact.html" class="bar-item button padding-large hover-black">
     <i class="fas fa-envelope xxlarge"></i>
     <p>CONTACT</p>
   </a>
@@ -60,9 +60,10 @@
 <div class="padding-large" id="main">
   <!-- Header/Home -->
   <header class="container padding-32 center black" id="home">
-    <h1 class="jumbo"><span class="hide-small">Hi! I'm</span> Matt.</h1>
-    <p>UX Research and Design Anthropologist.</p>
-    <img src="img/portrait.png" alt="man" class="image" width="992" height="1108">
+    <h1 class="jumbo"><span class="hide-small">Design</span></h1>
+    <iframe width="1280" height="720" src="https://xd.adobe.com/embed/482cc044-b8d9-4893-40e6-4b75514adf7f-3e1d/" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Click on embed and press forward/backward arrow keys to interact.</figcaption>
+  <!--  <img src="img/portrait.png" alt="man" class="image" width="992" height="1108"> -->
   </header>
 
   <!-- Portfolio Section -->
@@ -73,32 +74,42 @@
     <!-- Grid for photos -->
     <div class="row-padding" style="margin:0 -16px">
       <div class="half">
-        <img src="img/quick-facts.png" style="width:100%">
-        <img src="img/claws_ui_layout.png" style="width:100%">
-        <img src="img/claws_ui_kit.png" style="width:100%">
-        <img src="img/priya_serving.png" style="width:100%">
-        <img src="img/self_p.jpg" style="width:100%">
+        <img src="img/quick-facts.png" alt="quick facts" style="width:100%">
+        <figcaption>Quick Facts about me.</figcaption>
+        <img src="img/claws_ui_layout.png" alt="layout" style="width:100%">
+        <figcaption>CLAWS General UI layout.</figcaption>
+        <img src="img/claws_ui_kit.png" alt="design kit" style="width:100%">
+        <figcaption>CLAWS customer UI kit stickersheet.</figcaption>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/rapberry_cool.png" alt="layout" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <img src="img/rapberry_warm.png" alt="layout" style="width:300px;height:300px;">
+              <figcaption>Cool/Warm color layout</figcaption>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="half">
         <img src="img/fetch.png" style="width:100%">
+        <figcaption>Fetch mobile concept</figcaption>
         <img src="img/front.png" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
+        <figcaption>Business card mockup for GRDC</figcaption>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/330.png" alt="layout" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <img src="img/455.png" alt="layout" style="width:300px;height:300px;">
+              <figcaption>Course posters for LSA Biological Station</figcaption>
+            </div>
       </div>
     <!-- End photo grid -->
     </div>
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="img/rapberry_cool.png" alt="design layout cool" style="width:100%">
-    </div>
-    <div class="flip-card-back">
-      <img src="img/rapberry_warm.png" alt="design layout warm" style="width:100%">
-    </div>
-  </div>
-</div>
   <!-- End Portfolio Section -->
   </div>
 
@@ -113,13 +124,6 @@
   <p class="medium">Designed by <a href="https://www.mtthwx.com" target="_blank" class="hover-text-green">me.</a></p>
 <!-- End footer -->
 </footer>
-
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
 
 <!-- END PAGE CONTENT -->
 </div>
