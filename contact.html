@@ -67,7 +67,7 @@
   <!-- Page Content -->
   <div class="padding-large">
     <!-- Header/Home -->
-    <header class="container padding-32 center black" id="main">
+    <header class="container padding-32 center black" id="top">
       <h1 class="jumbo"><span class="hide-small">Contact</span></h1>
       <img src="img/portrait.png" alt="man" class="image" width="992" height="1108">
     </header>
@@ -98,8 +98,8 @@
 
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
       <script src="assets/js/jquery.min.js"></script>
-      <script ="text/javascript">var submitted=false;</script>
-      <script ="text/javascript">
+      <script type="text/javascript">var submitted=false;</script>
+      <script type="text/javascript">
       $('#gform').on('submit', function(e) {
         $('#gform *').fadeOut(2000);
         $('#gform').prepend('Your submission has been processed...');
